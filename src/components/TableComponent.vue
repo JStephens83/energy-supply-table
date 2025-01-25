@@ -3,7 +3,6 @@
     <table class="table table-striped">
       <thead>
         <tr>
-          <!-- Colonne Country -->
           <th>
             <button 
               @click="sortTable('country')" 
@@ -15,7 +14,6 @@
                  class="ms-2"></i>
             </button>
           </th>
-          <!-- Colonne Region -->
           <th>
             <button 
               @click="sortTable('region')" 
@@ -27,7 +25,6 @@
                  class="ms-2"></i>
             </button>
           </th>
-          <!-- Colonne Total Energy Supply -->
           <th>
             <button 
               @click="sortTable('Total energy supply')" 

@@ -7,7 +7,7 @@ const PORT = 5000;
 // CORS
 app.use(cors());
 
-// Route data.json
+// Routes
 app.get('/data', (req, res) => {
   try {
     const data = require(path.join(__dirname, 'data.json')); 
@@ -18,7 +18,6 @@ app.get('/data', (req, res) => {
   }
 });
 
-// Route countries.json
 app.get('/countries', (req, res) => {
   try {
     const countries = require(path.join(__dirname, 'countries.json'));

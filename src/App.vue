@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <h1 class="text-center">Energy Table</h1>
-    <!-- Appel du composant TableComponent -->
     <TableComponent />
   </div>
 </template>
